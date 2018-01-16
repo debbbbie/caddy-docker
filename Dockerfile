@@ -1,7 +1,7 @@
 #
 # Builder
 #
-FROM abiosoft/caddy as builder
+FROM abiosoft/caddy
 
 ARG version="0.10.10"
 ARG plugins="git,tld.dns.dnspod"
